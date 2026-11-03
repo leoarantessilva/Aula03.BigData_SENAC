@@ -1,4 +1,5 @@
 salario = float(input("Seu salário é de: "))
+nome = input("Diga seu nome: ")
 
 aliquota = float(input("Informe a aliquota de aumento: "))
 aumento = salario * aliquota
@@ -7,4 +8,4 @@ print(f"Seu acréscimo é de {aumento}")
 
 total = salario + aumento
 
-print(f"Seu salário com o aumento é de: {total}")
+print(f"Olá, {nome}, Seu salário com o aumento é de: {total}")
